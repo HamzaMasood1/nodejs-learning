@@ -1,9 +1,10 @@
-function processUserInput(callback){
-    var name = "peter";
-    console.log('Please enter your name');
-    callback(name);
-}
-
-processUserInput(function (name){
+function greeting(name) {
     console.log('Hello ' + name);
-});
+  }
+  
+  function processUserInput(callback) {
+    var name = "Jonny"
+    callback(name);
+  }
+  
+  processUserInput(greeting);
